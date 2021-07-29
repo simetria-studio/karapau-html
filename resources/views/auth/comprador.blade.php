@@ -20,8 +20,9 @@
                         <input id="password" class="input" type="password" pattern=".+" required />
                         <label class="label" for="password">Senha</label>
                     </div>
-
-                    <button class="btn btn-primary" type="submit">ENTRAR</button>
+                    <div>
+                        <button class="btn btn-primary" type="submit">ENTRAR</button>
+                    </div>
             </form>
         </div>
     </div>
