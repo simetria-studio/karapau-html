@@ -16,11 +16,8 @@
         rel="stylesheet">
     {{-- CSS --}}
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-<<<<<<< Updated upstream
 
-=======
     
->>>>>>> Stashed changes
     <link rel="stylesheet" href="{{ url('assets/css/auth/auth.min.css') }}">
     <title>Karapau</title>
 </head>
@@ -35,12 +32,7 @@
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-<<<<<<< Updated upstream
- 
-=======
-    
     <script src="{{ url('assets/auth/js/script.js') }}"></script>
->>>>>>> Stashed changes
 </body>
 
 </html>
