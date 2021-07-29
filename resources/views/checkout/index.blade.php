@@ -173,7 +173,9 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, at obcaecati amet nesciunt itaque excepturi reprehenderit consequatur id. Eos amet nostrum pariatur non cum architecto neque aut maiores vitae iste!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, at obcaecati amet
+                                    nesciunt itaque excepturi reprehenderit consequatur id. Eos amet nostrum pariatur non
+                                    cum architecto neque aut maiores vitae iste!
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">FECHAR</button>
@@ -193,9 +195,7 @@
     <div class="top_4">
         <div class="container">
             <div class="d-flex total-price">
-
-                <p><img src="{{ url('assets/img/banco.png') }}" alt="">
-                    Transferência</p>
+                <p><img src="{{ url('assets/img/banco.png') }}" alt=""> Transferência</p>
                 <input type="radio">
             </div>
         </div>
@@ -203,8 +203,7 @@
     <div class="top_4">
         <div class="container">
             <div class="d-flex total-price">
-                <img src="{{ url('assets/img/card.png') }}" alt="">
-                <p>Cartão de débito / Crédito</p>
+                <p><img src="{{ url('assets/img/card.png') }}" alt=""> Cartão de débito / Crédito</p>
                 <input type="radio">
             </div>
         </div>
@@ -212,17 +211,15 @@
     <div class="top_4">
         <div class="container">
             <div class="d-flex total-price">
-                <img src="{{ url('assets/img/mbred.png') }}" alt="">
-                <p>MB Way</p>
+                <p><img src="{{ url('assets/img/mbred.png') }}" alt=""> MB Way</p>
                 <input type="radio">
             </div>
         </div>
     </div>
     <div class="top_4">
         <div class="container">
-            <div class="d-flex total-price">
-                <img src="{{ url('assets/img/mb.png') }}" alt="">
-                <p>Multibanco</p>
+            <div class="total-price">
+                <p><img src="{{ url('assets/img/mb.png') }}" alt=""> Multibanco</p>
                 <input type="radio">
             </div>
         </div>
