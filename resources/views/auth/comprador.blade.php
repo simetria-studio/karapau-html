@@ -11,21 +11,16 @@
             <form action="">
                 @csrf
                 <div class="text-center">
-                    <div>
-                        <label class="mdc-text-field mdc-text-field--filled mdc-text-field--no-label">
-                            <span class="mdc-text-field__ripple"></span>
-                            <input class="mdc-text-field__input" type="email" placeholder=" E-mail" aria-label="Label">
-                            <span class="mdc-line-ripple"></span>
-                        </label>
+                    <div class="input-container my-4">
+                        <input id="name" class="input" type="text" pattern=".+" required />
+                        <label class="label" for="name">E-mail:</label>
                     </div>
 
-                    <div class="mt-3">
-                        <label class="mdc-text-field mdc-text-field--filled mdc-text-field--no-label">
-                            <span class="mdc-text-field__ripple"></span>
-                            <input class="mdc-text-field__input" type="password" placeholder=" Senha" aria-label="Label">
-                            <span class="mdc-line-ripple"></span>
-                        </label>
+                    <div class="input-container my-5">
+                        <input id="password" class="input" type="password" pattern=".+" required />
+                        <label class="label" for="password">Senha</label>
                     </div>
+
                 </div>
             </form>
         </div>
