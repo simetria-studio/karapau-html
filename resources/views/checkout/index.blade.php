@@ -59,10 +59,9 @@
                 </div>
             </div>
             <div>
-                <button class="btn btn-danger">REMOVER</button>
+                <button class="btn btn-danger btn-lg">REMOVER</button>
             </div>
         </div>
-
     </div>
     <div class="top_2 mt-3">
         <div class="container">
@@ -97,10 +96,9 @@
                 </div>
             </div>
             <div>
-                <button class="btn btn-danger">REMOVER</button>
+                <button class="btn btn-danger btn-lg">REMOVER</button>
             </div>
         </div>
-
     </div>
     <div class="top_2 mt-3">
         <div class="container">
@@ -135,11 +133,11 @@
                 </div>
             </div>
             <div>
-                <button class="btn btn-danger">REMOVER</button>
+                <button class="btn btn-danger btn-lg">REMOVER</button>
             </div>
         </div>
-
     </div>
+
 
     <div class="container">
         <h2 class="titulo">TAXA DE ENTREGA TOTAL</h2>
