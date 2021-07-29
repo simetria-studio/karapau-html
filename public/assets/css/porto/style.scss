@@ -332,6 +332,8 @@ body {
         .itens{
            span{
             padding-left: 10px;
+            font-size: 18px;
+            font-weight: 600;
            }
         }
     }
@@ -342,13 +344,20 @@ body {
     display: flex;
     align-items: center;
 
-    margin-bottom: 140px;
+    margin-bottom: 50px;
     width: 100%;
-    height: 150px;
+    height: 100px;
     background-color: #fff;
     .total-price {
         display: flex;
         justify-content: space-between;
+
+        .euros{
+            h1{
+                font-weight: 900;
+            }
+
+        }
     }
 }
 .top_4 {
@@ -361,6 +370,11 @@ body {
     .total-price {
         display: flex;
         justify-content: space-between;
+
+        img{
+            width: 68px;
+            height: 68px;
+        }
     }
 }
 .termos{

@@ -35,27 +35,35 @@
                 </div>
                 <div>
                     <p>Espécie:</p>
+                    <span></span>
                 </div>
                 <div>
                     <p>Tamanho:</p>
+                    <span></span>
                 </div>
                 <div>
                     <p>Peso:</p>
+                    <span></span>
                 </div>
                 <div>
                     <p>Quantidade:</p>
+                    <span></span>
                 </div>
                 <div>
                     <p>Caixas:</p>
+                    <span></span>
                 </div>
                 <div>
                     <p>Valor:</p>
+                    <span></span>
                 </div>
                 <div>
                     <p>Origem:</p>
+                    <span></span>
                 </div>
                 <div>
                     <p>Taxa de entrega:</p>
+                    <span></span>
                 </div>
             </div>
             <div>
@@ -145,11 +153,34 @@
     <div class="top_3">
         <div class="container">
             <div class="d-flex total-price">
-                <div>
+                <div class="euros">
                     <h1>€15,00</h1>
                 </div>
                 <div>
-                    <button class="btn btn-primary">COMO FUNCIONA?</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        COMO FUNCIONA?
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">COMO FUNCIONA</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, at obcaecati amet nesciunt itaque excepturi reprehenderit consequatur id. Eos amet nostrum pariatur non cum architecto neque aut maiores vitae iste!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">FECHAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,8 +193,9 @@
     <div class="top_4">
         <div class="container">
             <div class="d-flex total-price">
-                <img src="" alt="">
-                <p>Transferência</p>
+
+                <p><img src="{{ url('assets/img/banco.png') }}" alt="">
+                    Transferência</p>
                 <input type="radio">
             </div>
         </div>
@@ -171,7 +203,7 @@
     <div class="top_4">
         <div class="container">
             <div class="d-flex total-price">
-                <img src="" alt="">
+                <img src="{{ url('assets/img/card.png') }}" alt="">
                 <p>Cartão de débito / Crédito</p>
                 <input type="radio">
             </div>
@@ -180,7 +212,7 @@
     <div class="top_4">
         <div class="container">
             <div class="d-flex total-price">
-                <img src="" alt="">
+                <img src="{{ url('assets/img/mbred.png') }}" alt="">
                 <p>MB Way</p>
                 <input type="radio">
             </div>
@@ -189,7 +221,7 @@
     <div class="top_4">
         <div class="container">
             <div class="d-flex total-price">
-                <img src="" alt="">
+                <img src="{{ url('assets/img/mb.png') }}" alt="">
                 <p>Multibanco</p>
                 <input type="radio">
             </div>
