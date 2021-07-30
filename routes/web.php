@@ -49,3 +49,6 @@ Route::get('/checkout', function () {
 Route::get('/listagem', function () {
     return view('fluxo-das-encomendas.listagem-das-encomendas.index');
 });
+Route::get('/detalhes-encomendas', function () {
+    return view('fluxo-das-encomendas.detalhes-das-encomendas.index');
+});

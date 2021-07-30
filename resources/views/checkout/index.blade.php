@@ -33,37 +33,37 @@
                     <p>item:</p>
                     <span> 02</span>
                 </div>
-                <div>
+                <div class="d-flex itens">
                     <p>Espécie:</p>
-                    <span></span>
+                    <span>Carapau</span>
                 </div>
-                <div>
+                <div class="d-flex itens">
                     <p>Tamanho:</p>
-                    <span></span>
+                    <span>Tamanho 2 (T2)</span>
                 </div>
-                <div>
+                <div class="d-flex itens">
                     <p>Peso:</p>
-                    <span></span>
+                    <span>30KG</span>
                 </div>
-                <div>
+                <div class="d-flex itens">
                     <p>Quantidade:</p>
-                    <span></span>
+                    <span>03</span>
                 </div>
-                <div>
+                <div class="d-flex itens">
                     <p>Caixas:</p>
-                    <span></span>
+                    <span>03</span>
                 </div>
-                <div>
+                <div class="d-flex itens">
                     <p>Valor:</p>
-                    <span></span>
+                    <span>€ 20,00</span>
                 </div>
-                <div>
+                <div class="d-flex itens">
                     <p>Origem:</p>
-                    <span></span>
+                    <span>Póvoa de Varzim</span>
                 </div>
-                <div>
+                <div class="d-flex itens">
                     <p>Taxa de entrega:</p>
-                    <span></span>
+                    <span>€ 5,00</span>
                 </div>
             </div>
             <div>
@@ -117,6 +117,7 @@
                 </div>
                 <div>
                     <p>Espécie:</p>
+
                 </div>
                 <div>
                     <p>Tamanho:</p>
