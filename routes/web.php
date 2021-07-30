@@ -42,3 +42,10 @@ Route::get('/cadastrar', function () {
 Route::get('/checkout', function () {
     return view('checkout.index');
 });
+
+
+
+// FLUXOS DAS ENCOMENDAS
+Route::get('/listagem', function () {
+    return view('fluxo-das-encomendas.listagem-das-encomendas.index');
+});
