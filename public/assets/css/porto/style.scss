@@ -162,6 +162,9 @@ body {
         border: none;
     }
 }
+.finalizar button:hover{
+    color: #fff;
+}
 .detalhes {
     margin-bottom: 150px;
     img {
@@ -360,21 +363,57 @@ body {
 .top_4 {
     margin-bottom: 20px;
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: #fff;
-    .total-price {
+    .metodos{
         display: flex;
-        align-items: center;
-        justify-content: space-around;
-        img {
-            width: 68px;
-            height: 68px;
+
+        .logo-metodos{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 25%;
+            height: 100px;
         }
+        .nome-metodos{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 100px;
+
+            label{
+                font-size: 18.34px;
+                font-weight: 900;
+                line-height: 24.12px;
+            }
+        }
+        .check{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 25%;
+            height: 100px;
+            font-size: 30px;
+        }
+
     }
 }
+
 .termos {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 150px;
+
+    input{
+        font-size: 28px;
+    }
+
+    label{
+        margin-top: 10px;
+        font-size: 18.34px;
+        font-weight: 900;
+        line-height: 24.12px;
+    }
 }

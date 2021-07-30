@@ -152,7 +152,7 @@
     </div>
     <div class="top_3">
         <div class="container">
-            <div class="d-flex total-price">
+            <div class="total-price">
                 <div class="euros">
                     <h1>€15,00</h1>
                 </div>
@@ -194,40 +194,72 @@
 
     <div class="top_4">
         <div class="container">
-            <div class="d-flex total-price">
-                <p><img src="{{ url('assets/img/banco.png') }}" alt=""> Transferência</p>
-                <input type="radio">
+            <div class="metodos">
+                <div class="logo-metodos">
+                    <img src="{{ url('assets/img/banco.png') }}" alt="">
+                </div>
+                <div class="nome-metodos">
+                    <label for="banco">Transferência</label>
+                </div>
+                <div class="form-check check">
+                    <input id="banco" class="form-check-input" type="radio" name="escolha">
+                </div>
             </div>
         </div>
     </div>
     <div class="top_4">
         <div class="container">
-            <div class="d-flex total-price">
-                <p><img src="{{ url('assets/img/card.png') }}" alt=""> Cartão de débito / Crédito</p>
-                <input type="radio">
+            <div class="metodos">
+                <div class="logo-metodos">
+                    <img src="{{ url('assets/img/card.png') }}" alt="">
+                </div>
+                <div class="nome-metodos">
+                    <label for="debito">Cartão de débito ou Crédito</label>
+                </div>
+                <div class="form-check check">
+                    <input id="debito" class="form-check-input" type="radio" name="escolha">
+                </div>
             </div>
         </div>
     </div>
     <div class="top_4">
         <div class="container">
-            <div class="d-flex total-price">
-                <p><img src="{{ url('assets/img/mbred.png') }}" alt=""> MB Way</p>
-                <input type="radio">
+            <div class="metodos">
+                <div class="logo-metodos">
+                    <img src="{{ url('assets/img/mbred.png') }}" alt="">
+                </div>
+                <div class="nome-metodos">
+                    <label for="mbway">MB Way</label>
+                </div>
+                <div class="form-check check">
+                    <input id="mbway" class="form-check-input" type="radio" name="escolha">
+                </div>
             </div>
         </div>
     </div>
     <div class="top_4">
         <div class="container">
-            <div class="total-price">
-                <p><img src="{{ url('assets/img/mb.png') }}" alt=""> Multibanco</p>
-                <input type="radio">
+            <div class="metodos">
+                <div class="logo-metodos">
+                    <img for="multibanco" src="{{ url('assets/img/mb.png') }}" alt="">
+                </div>
+                <div class="nome-metodos">
+                    <label for="multibanco">Multibanco</label>
+                </div>
+                <div class="form-check check">
+                    <input id="multibanco" class="form-check-input" type="radio" name="escolha">
+                </div>
             </div>
         </div>
+    </div>
+
     </div>
     <div class="container">
         <div class="termos">
-            <input type="checkbox">
-            <label> Termos e condições</label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"> Termos e condições</label>
+            </div>
         </div>
     </div>
     <div class="total">
@@ -242,7 +274,7 @@
             </div>
         </div>
         <div class="finalizar">
-            <button>PAGAR E CONCLUIR</button>
+            <button class="btn" type="submit">PAGAR E CONCLUIR</button>
         </div>
     </div>
 @endsection
