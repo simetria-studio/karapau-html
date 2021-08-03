@@ -110,8 +110,100 @@
                     <div class="wait">
                         <span class="btn wait-paying">AGUARDANDO PAGAMENTO</span>
                     </div>
+                    {{-- STATUS DE PAGAMENTOS
+                        <div class="wait">
+                        <span class="btn wait-paying">EM PREPARAÇÃO</span>
+                    </div>
+                    <div class="wait">
+                        <span class="btn wait-paying">SAIU PARA ENTREGA</span>
+                    </div> --}}
                     <div class="info-receber">
-                        <button class="btn info-recebeu">INFORMAR RECEBIMENTO</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn info-recebeu" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            INFORMAR RECEBIMENTO
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">RECEBIMENTO</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="text-center">
+
+                                            <div class="mt-3">
+                                                <span>MERCADORIA CHEGOU FRESCA?</span>
+                                            </div>
+
+                                            <div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="mercadoria"
+                                                        id="inlineRadio1">
+                                                    <label class="form-check-label" for="inlineRadio1">SIM</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="mercadoria"
+                                                        id="inlineRadio2">
+                                                    <label class="form-check-label" for="inlineRadio2">NÃO</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3">
+                                                <span>ENTREGADOR FOI CORDIAL?</span>
+                                            </div>
+                                            <div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="entregador"
+                                                        id="inlineRadio3">
+                                                    <label class="form-check-label" for="inlineRadio3">SIM</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="entregador"
+                                                        id="inlineRadio4">
+                                                    <label class="form-check-label" for="inlineRadio4">NÃO</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3">
+                                                <span>AS CAIXAS FORAM DEVOLVIDAS AO ENTREGADOR?</span>
+                                            </div>
+
+                                            <div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="caixas"
+                                                        id="inlineRadio5">
+                                                    <label class="form-check-label" for="inlineRadio5">SIM</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="caixas"
+                                                        id="inlineRadio6">
+                                                    <label class="form-check-label" for="inlineRadio6">NÃO</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3">
+                                                <span>QUER REGISTAR ALGUMA RECLAMAÇÃO OU ELOGIO?</span>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                    rows="3"></textarea>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-recebimento" data-bs-dismiss="modal">CONFIRMAR RECEBIMENTO</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

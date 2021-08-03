@@ -52,3 +52,15 @@ Route::get('/listagem', function () {
 Route::get('/detalhes-encomendas', function () {
     return view('fluxo-das-encomendas.detalhes-das-encomendas.index');
 });
+Route::get('/cadastro-individual-entrar', function () {
+    return view('cadastro-individual.entrar');
+});
+Route::get('/cadastro-individual-nome', function () {
+    return view('cadastro-individual.nome');
+});
+Route::get('/cadastro-individual-email', function () {
+    return view('cadastro-individual.email');
+});
+Route::get('/cadastro-individual-nif', function () {
+    return view('cadastro-individual.nif');
+});
