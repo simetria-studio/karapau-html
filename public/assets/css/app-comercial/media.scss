@@ -1,0 +1,22 @@
+@media only screen and (max-width: 425px) {
+    // HOME
+    main {
+        .icones {
+            width: 400px;
+            .cdc, .extrato, .ver-incompletos, .cadastrar-lead{
+                width: 190px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    // HOME
+    main {
+        .icones {
+            width: 300px;
+            .cdc, .extrato, .ver-incompletos, .cadastrar-lead{
+                width: 140px;
+            }
+        }
+    }
+}

@@ -64,3 +64,20 @@ Route::get('/cadastro-individual-email', function () {
 Route::get('/cadastro-individual-nif', function () {
     return view('cadastro-individual.nif');
 });
+
+
+
+
+
+Route::get('/ver-compradores', function () {
+    return view('app-comercial.home');
+});
+Route::get('/page-1', function () {
+    return view('app-comercial.page-1');
+});
+Route::get('/page-2', function () {
+    return view('app-comercial.page-2');
+});
+Route::get('/page-3', function () {
+    return view('app-comercial.page-3');
+});
